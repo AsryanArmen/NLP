@@ -48,6 +48,7 @@ Files
     sample_submission.csv - a sample submission file in the correct format
     
 Columns
+
     id - a unique identifier for each tweet
     text - the text of the tweet
     location - the location the tweet was sent from (may be blank)
