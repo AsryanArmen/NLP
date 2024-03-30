@@ -54,3 +54,26 @@ Columns
     location - the location the tweet was sent from (may be blank)
     keyword - a particular keyword from the tweet (may be blank)
     target - in train.csv only, this denotes whether a tweet is about a real disaster (1) or not (0)
+
+
+------------------------
+| Run Code              |
+------------------------
+1. py -m venv venv (if you have windows pc)
+   
+   a) .\venv\Scripts\activate
+   
+   b) py -m pip install --upgrade pip
+   
+   c) pip install jupyter numpy pandas seaborn matplotlib scikit-learn tensorflow
+   
+   d) jupyter-notebook (For open jupyter)
+2. python3 -m venv venv (if you have mac or linux)
+
+   a) source ./venv/bin/activate
+   
+   b) python3 -m pip install --upgrade pip
+   
+   c) pip install jupyter numpy pandas seaborn matplotlib scikit-learn tensorflow
+   
+   d) jupyter-notebook (For open jupyter)
